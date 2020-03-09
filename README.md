@@ -8,12 +8,12 @@ pip3 install pybithumb
 ### 로컬에 설치하기
 로컬에 설치하기 위해 요구되는 모듈 의존성은 다음과 같다. (설치 시, ModuleNotFoundError를 발생하는 모듈들 목록임)
 
-'''sh
+```sh
 sudo apt install python3-pip
 pip3 install setuptools
 python3 setup.py build
 sudo python3 setup.py install
-'''
+```
 
 
 ## Import
